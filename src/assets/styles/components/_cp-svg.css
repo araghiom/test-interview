@@ -1,0 +1,64 @@
+/* @keyframes identifier {
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+
+.circleTest circle:nth-child(1){
+    animation-name: "identifier";
+            animation-delay : "1s";
+            animation-timing-function : "ease-in-out";
+            animation-duration: "1s";
+}
+.circleTest circle:nth-child(2){
+    animation-name: "identifier";
+            animation-delay : "2s";
+            animation-timing-function : "ease-in-out";
+            animation-duration: "1s";
+    
+} */
+
+
+.input-checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+/* Default state of the first circle */
+circle {
+    transition: transform 5.0s ease-in-out;
+}
+
+/* When the checkbox is checked, change the cx and cy of the first circle */
+.input-checkbox:checked + svg circle:nth-child(1) {
+    transform: translate(0px, 100px);
+
+    transition: transform 1s ease;
+}
+.input-checkbox:checked + svg circle:nth-child(2) {
+    transform: translate(-60px, 0px) ;
+
+
+    transition: transform .5s ease;
+}
+.input-checkbox:checked + svg circle:nth-child(3) {
+    transform: translate(-70px, 0px) ;
+    transition: transform .5s ease;
+}
+
+.input-checkbox:checked + svg circle:nth-child(4) {
+    transform: translate(0px, -80px) ;
+    transition: transform .5s ease;
+}
+.input-checkbox:checked + svg circle:nth-child(5) {
+    transform: translate(80px, 00px) ;
+    transition: transform .5s ease;
+}
+.input-checkbox:checked + svg circle:nth-child(6) {
+    transform: translate(80px, 00px) ;
+    transition: transform .5s ease-out;
+}
+.input-checkbox:checked + svg circle:nth-child(7) {
+    transform: fill("#ffa82e") ;
+    transition: transform .5s ease-out;
+}
+

@@ -1,0 +1,16 @@
+.cp-button {
+    @apply text-[10px];
+
+/*   
+    &.MuiButton-outlined {
+      @apply font-sans  rounded-2xl bg-white text-textDefault border-borderDefault;
+    }
+  
+    &.MuiButton-contained {
+      @apply font-sans  bg-surfacePrimary rounded-2xl  text-white ;
+    }
+  
+    &.MuiButton-text {
+      @apply font-sans   text-surfacePrimary disabled:text-textDisable ; */
+    /* } */
+  }

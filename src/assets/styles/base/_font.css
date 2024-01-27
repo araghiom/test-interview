@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "IranYekanRegular";
+    src: url("/direction/public/IranYekan/eot/iranyekanwebregularfanum.eot");
+    src: local("IranYekanRegular"), local("IranYekan-Regular"),
+      url("/IranYekan/ttf/iranyekanwebregularfanum.ttf") format("ttf"),
+      url("/IranYekan/woff/iranyekanwebregularfanum.woff") format("woff"),
+      url("/IranYekan/svg/iranyekanwebregularfanum.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "IranYekanBold";
+    src: url("/IranYekan/eot/iranyekanwebboldfanum.eot");
+    src: local("IranYekanBold"), local("IranYekan-Bold"),
+      url("/IranYekan/woff/iranyekanwebboldfanum.woff") format("woff"),
+      url("/IranYekan/ttf/iranyekanwebboldfanum.ttf") format("ttf"),
+      url("/IranYekan/svg/iranyekanwebboldfanum.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+  }
+  

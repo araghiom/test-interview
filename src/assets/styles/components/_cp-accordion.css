@@ -1,0 +1,21 @@
+.cp-accordion{
+  @apply shadow-none  bg-transparent;
+
+ & .MuiAccordionSummary-root {
+ 
+    @apply m-0 w-auto h-auto;
+
+   &.MuiAccordionSummary-gutters{
+    @apply m-0;
+   }
+
+   & .MuiAccordionSummary-content {
+     @apply m-0;
+     & .MuiAccordionSummary-content{
+       @apply m-0;
+      }
+    }
+    
+  }
+
+}
